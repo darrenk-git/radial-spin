@@ -1,5 +1,11 @@
+/*
 
-/* Demo by http://creative-punch.net */
+Author: Darren Kearney
+
+Description: This is a modified version of the radial menu found here http://creative-punch.net/2014/02/making-animated-radial-menu-css3-javascript/   Thank you good peoples!
+
+
+*/
 
 @import "http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
 
@@ -38,7 +44,7 @@ body {
   transition: all 0.4s ease-out;
   */
   
-    transition: all 0.4s ease;
+    transition: all 0.8s ease;
   
 }
 
@@ -69,7 +75,7 @@ body {
  
   color: #386EE8;
   text-shadow: #2C56B5 0px 0px 6px;
-  transition: all linear 1s; 
+  transition: all linear 1s; // use with in conjuction with the interval in the javascript file to set up the animation behavior 
 }
 
 .circle a:hover {
